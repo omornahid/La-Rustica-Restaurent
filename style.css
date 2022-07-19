@@ -106,6 +106,7 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .banner-contents {
     padding: 0px 10px;
     text-align: center;
@@ -221,8 +222,17 @@ footer {
     background: #060930;
     padding: 1%;
     color: white;   
+    font-weight: bolder;
 }
 
+footer p {
+    font-size: 15px;
+    line-height: 3px;
+    text-align: center;
+}
+/* footer ends here  */
+
+/* to top button starts here*/
 #progress {
     position: fixed;
     bottom: 20px;
@@ -246,14 +256,7 @@ footer {
     font-size: 35px;
     color: #4aadf8;
   }
-
-footer p {
-    font-size: 0.8rem;
-    line-height: 32px;
-    text-align: center;
-}
-
-/* footer ends here  */
+/* to top button ends here*/
 
 /* Small devices (portrait tablets and large phones, 576px and up) */
 @media (min-width: 576px) {
@@ -305,8 +308,6 @@ footer p {
     .col-sm-12 {
         width: 100%;
     }
-
-
 
 }
 
